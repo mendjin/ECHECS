@@ -1,0 +1,38 @@
+.refresh{
+position: relative;
+background-color: rgb(67, 143, 67);
+top: -30pc;
+left: 30pc; 
+transform: translate(-50%, -50%);
+
+border: 1px solid #fff;
+padding: 10px 20px;
+text-transform: uppercase;
+border-radius: 10px;
+
+}
+
+.refresh a{
+    text-decoration: none;
+    color: #fff;
+}
+.annuler{
+    position: relative;
+background-color:  #e72525;
+top: -32.5pc;
+left: 39pc; 
+transform: translate(-50%, -50%);
+color: #fff;
+ 
+border: 1px solid #fff;
+padding: 10px 20px;
+text-transform: uppercase;
+transition: 00.6s ease ;
+border-radius: 10px;
+}
+
+.annuler a{
+    text-decoration: none;
+    color: #fff;
+}
+

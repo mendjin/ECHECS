@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="accueil.css">
+    <title>Acceuil</title>
+</head>
+<body>
+    <header>
+    <div class="home_page">
+       <ul>
+          <li class="active">
+            <a href="*">Accueil</a>
+          </li>
+
+          <li>
+            <a href="regles.html">Regles du jeu</a>
+          </li>
+
+          <li>
+            <a href="*">Mode du jeu</a>
+          </li>
+
+          <li>
+            <a href="*">Statistique </a>
+          </li>
+       </ul>
+     </div>
+     <div class="titre">
+        <h1>CHESS GAME </h1>
+     </div>
+     <div class="bouton">
+        <a href="index.html"  class="btn">2 joueurs</a>
+        <a href="#" class="btn">joueur vs machine</a>
+        <a href="index.html" class="btn" onclick="// restaurer letat de la page ouverte 
+        window.addEventListener('load', function(){
+            var pageState = JSON.parse(localStorage.getItem('pageState'));
+            if(pageState){
+                window.scrollTo(0, pageState.scrollTop);
+            }
+        });">charger partie</a>
+     </div>
+
+    </header>
+</body>
+</html>
